@@ -1,0 +1,199 @@
+@media (max-width: 1200px) {
+
+    /*SECTION  WE BUILD  *_* START*/
+
+    .we-build-menu-slider {
+        max-width: 930px;
+        width: 100%;
+        margin: 0 auto -27px;
+    }
+
+    .we-build-menu-text {
+        width: 228px;
+    }
+
+
+    .we-build-menu-text p {
+        font-size: 12px;
+    }
+
+    .we-build-menu-text p:before {
+        top: 25px;
+    }
+
+    .we-build-img {
+        height: 590px;
+        width: 100%;
+    }
+
+    .we-build-describtion {
+        padding: 72px 0 21px 0;
+    }
+
+    .we-build-describtion-title {
+        text-align: center;
+    }
+
+    .we-build-small-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        max-width: 845px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .price-calculate {
+        text-align: center;
+        display: flex;
+        margin: auto;
+        max-width: 420px;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .calculate {
+        margin-right: 0;
+    }
+
+    /*SECTION  WE BUILD  -_- END*/
+    /*SECTION  REVIEWS CONSTRUCTION DIARIES *_* START*/
+    .construction-slide {
+        max-width: 527px;
+        width: 100%;
+    }
+
+    /* SECTION  REVIEWS CONSTRUCTION DIARIES -_- END */
+
+}
+
+@media (max-width: 992px) {
+
+    /*SECTION  WE BUILD  *_* START*/
+
+    .we-build-menu-slider {
+        display: none;
+    }
+
+    .we-build-title {
+        margin-bottom: 30px;
+    }
+
+    .we-build-menu-text {
+        width: 190px;
+    }
+
+    .we-build-menu-text:nth-child(1) {
+        width: 150px;
+    }
+
+    .we-build-menu-text p + p {
+        margin-top: 15px;
+    }
+
+    .we-build-small-text {
+        display: flex;
+        flex-direction: column;
+        max-width: 356px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .price-calculate {
+        max-width: 356px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .price p {
+        font-size: 25px;
+    }
+
+    .calculate {
+        text-align: left;
+        margin: auto;
+    }
+
+    .calculate button {
+        width: 170px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    /*SECTION  WE BUILD  -_- END*/
+
+}
+
+
+@media (max-width: 768px) {
+
+    /*SECTION  REVIEWS CONSTRUCTION DIARIES *_* START*/
+    .construction-slide {
+        max-width: 487px;
+        width: 100%;
+    }
+
+    .construction-block {
+        max-width: 447px;
+        width: 100%;
+    }
+
+    .construction-slide .slick-prev, .construction-slide .slick-next {
+        margin-right: 0;
+    }
+
+    /* SECTION  REVIEWS CONSTRUCTION DIARIES -_- END */
+
+}
+
+@media (max-width: 576px) {
+
+    .we-build-menu ul li, .we-do-list ul li, .price-includes-list ul li, .price-includes-title p, .price p, .construction-text p {
+        font-size: 15px;
+    }
+
+    /*SECTION  WE BUILD  *_* START*/
+    .we-build-title h2, .reviews-title h2 {
+        font-size: 20px;
+    }
+
+    .we-build-describtion {
+        padding: 10px;
+    }
+
+    .we-build-describtion-title h3 {
+        font-size: 15px;
+    }
+
+    .price-calculate {
+        flex-direction: column;
+    }
+
+    .price p {
+        font-size: 20px;
+    }
+
+    .calculate button {
+        width: 140px;
+        font-size: 12px;
+    }
+
+    /*SECTION  WE BUILD  -_- END*/
+    /*SECTION  REVIEWS CONSTRUCTION DIARIES *_* START*/
+    .construction-block {
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .construction-text-imgs {
+        flex-direction: column;
+    }
+
+    .construction-imgs {
+        margin: auto;
+    }
+
+    /* SECTION  REVIEWS CONSTRUCTION DIARIES -_- END */
+
+}
+
